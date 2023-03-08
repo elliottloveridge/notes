@@ -1,0 +1,2 @@
+- https://www.geeksforgeeks.org/linear-regression-implementation-from-scratch-using-python/
+- linear regression gradient descent tutorial
