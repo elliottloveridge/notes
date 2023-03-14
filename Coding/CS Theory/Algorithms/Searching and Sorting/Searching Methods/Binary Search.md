@@ -1,14 +1,22 @@
 # Binary Search
 
-- Search a **sorted array** by repeatedly dividing the search interval in half.
+- Search a **sorted array** by repeatedly dividing the search interval in half
 - Begin with an interval covering the whole array
 	- If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise narrow it to the upper half
-	- Repeatedly check until the value is found or the interval is empty.
+	- Repeatedly check until the value is found or the interval is empty
 
 ## Complexity
 - You are reducing the search space by a factor of 2 each time, so the complexity is $\mathcal{O}(\log{n})$
+- An iterative binary search implementation requires $O(1)$ of auxiliary space
+	- Recursive solution requires $O(\log{n})$
+		- You need space for function calls in the stack
 
-### Python Implementation
+## Python Implementation
+
+### Iterative
+
+
+### Recursive
 ```python
 def binarySearch(arr, l, r, x):
 	"""
@@ -50,7 +58,7 @@ def binarySearch(arr, l, r, x):
 
 
 # Driver Code 
-arr = [ 2, 3, 4, 10, 40 ] 
+arr = [2, 3, 4, 10, 40] 
 x = 10
 
 # Function call 
@@ -61,50 +69,3 @@ if result != -1:
 else: 
 	print ("Element is not present in array")
 ```
-
-### C++ Implementation
-```c++
-// A recursive binary search function. It returns 
-// location of x in given array arr[l..r] is present, 
-// otherwise -1
-
-#include <bits/stdc++.h> 
-using namespace std; 
-
-int binarySearch(int arr[], int l, int r, int x) 
-{ 
-	if (r >= l) { 
-		int mid = l + (r - l) / 2; 
-
-		// If the element is present at the middle 
-		// itself 
-		if (arr[mid] == x) 
-			return mid; 
-
-		// If element is smaller than mid, then 
-		// it can only be present in left subarray 
-		if (arr[mid] > x) 
-			return binarySearch(arr, l, mid - 1, x); 
-
-		// Else the element can only be present 
-		// in right subarray 
-		return binarySearch(arr, mid + 1, r, x); 
-	} 
-
-	// We reach here when element is not 
-	// present in array 
-	return -1; 
-} 
-
-int main(void) 
-{ 
-	int arr[] = { 2, 3, 4, 10, 40 }; 
-	int x = 10; 
-	int n = sizeof(arr) / sizeof(arr[0]); 
-	int result = binarySearch(arr, 0, n - 1, x); 
-	(result == -1) ? cout << "Element is not present in array"
-				   : cout << "Element is present at index " << result; 
-	return 0; 
-} 
-```
-
