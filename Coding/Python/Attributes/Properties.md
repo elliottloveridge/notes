@@ -30,12 +30,9 @@ lives = property(_get_lives, _set_lives)
 
 ## Decorators Format
 - [[Decorators]] are more commonly used for defining both properties and getters and setters
-- Below is an example of this for the score data attribute
-## Alternate Syntax for Properties
-- Uses decorators
 	- Takes care of the property definition that you would otherwise have to write
 	- People tend to prefer this
-
+- Below is an example decorator used for the score data attribute
 ```python
 class Player(object):
 
