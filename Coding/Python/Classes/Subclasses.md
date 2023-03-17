@@ -61,20 +61,6 @@ class Vampire(Enemy):
 			super().take_damage(damage=damage)
 ```
 
-## Overloading
-- Python does not have overloading methods that are common in other languages
-	- You can use optional named parameters in the `__init__` method of the superclass to get a similar result
-		- See below class instance definitions for an example of this
-
-```python
-# Default values of superclass Enemy
-ugly_troll = Troll()
-# Optional parameter definitions for superclass Enemy attributes
-# This is equivalent to method overloading
-another_troll = Troll("Ug", 18, 1)
-brother = Troll("Urg", 23)
-```
-
 ## Mangling
 - [[Data Attributes#Non-Public Attributes|Non-public attributes]] use a single `_` to denote being internal to a class
 - Mangling is used to prevent accidental shadowing of attributes when creating sub-classes

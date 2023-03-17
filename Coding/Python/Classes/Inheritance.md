@@ -23,3 +23,32 @@
 - You should avoid this in practice most of the time
 	- Many languages don't allow this
 		- You can have more than one superclass but it has to be hierarchical
+
+```python
+# Define Enemy superclass
+class Enemy:
+
+    def __init__(self, name="Enemy", hit_points=0, lives=1):
+        self.name = name
+        self.hit_points = hit_points
+        self.lives = lives
+        self.alive = True
+
+
+# Define inheritance class
+class Vampire(Enemy):
+
+    def __init__(self, name):
+        super().__init__(name=name, lives=3, hit_points=12)
+
+
+# Define multiple inheritance
+class VampireKing(Vampire):
+
+    def __init__(self, name):
+        super().__init__(name)
+        self.hit_points = 140
+    
+    def take_damage(self, damage):
+        super().take_damage(damage // 4)
+```
