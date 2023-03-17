@@ -35,6 +35,8 @@ tim.lives -= 1
 ```
 
 ## Definitions
+- For the best way to define getters and setters see [[Properties#Decorators Format|decorators format]]
+
 - Below is an example class that uses two methods of creating getters and setters
 	- `_lives` uses [[Data Attributes#Non-Public Attributes|non-public attribute]] formatting
 - When defining a getter/setter you should also include a [[Properties|property]] definition
