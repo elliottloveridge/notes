@@ -1,45 +1,19 @@
-# Composition
+# Aggregation
 
-- Composition is when you define a class instance object as an instance variable of another class
-	- The class is therefore composed of other classes and has no (or few) attributes of its own
-
-```python
-class Wing:
-
-    def __init__(self, ratio):
-        self.ratio = ratio
-
-    def fly(self):
-        if self.ratio > 1:
-            print("I can fly")
-        elif self.ratio == 1:
-            print("This is hard work")
-        else:
-            print("I'll just walk")
-
-
-class Duck:
-
-    def __init__(self):
-        # Example of composition (class instance as instance variable)
-        # The class is composed of other classes and has no attributes of its own
-        self._wing = Wing(1.8)
-
-    def fly(self):
-        self._wing.fly()
-```
+- Aggregation is often described as a weak form of [[Composition|composition]]
+- In composition, the objects that another object is composed of do not exist outside of their container
+- Aggregation uses existing instances
+	- You would use aggregation when it's more likely you would want to swap out objects
 
 ## Example
 ```python
-# Class using composition
+# Class using aggregation
 class HtmlDoc:
 
-    def __init__(self):
-        # Define attributes via composition
-        # The HtmlDoc is composed of other classes
-        self._doc_type = DocType()
-        self._head = Head()
-        self._body = Body()
+    def __init__(self, doc_type, head, body):
+        self._doc_type = doc_type
+        self._head = head
+        self._body = body
 
     def add_head(self, name, contents):
         self._head.add_tag(name, contents)
@@ -109,16 +83,4 @@ class Body(Tag):
             self.contents += str(tag)
 
         super().display(file=file)
-
-
-if __name__ == '__main__':
-
-    # Composition class example
-    my_page = HtmlDoc()
-    my_page.add_head('title', 'This is a title')
-    my_page.add_tag('h1', 'Main heading')
-    my_page.add_tag('h2', 'Sub-heading')
-    my_page.add_tag('p', 'This is a paragraph that will appear on the page')
-    with open('test.html', 'w') as test_doc:
-        my_page.display(file=test_doc)
 ```

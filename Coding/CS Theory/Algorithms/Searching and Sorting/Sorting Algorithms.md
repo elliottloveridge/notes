@@ -11,7 +11,7 @@ There are two broad types of sorting algorithms:
 	1. [[Merge Sort]] - focuses on how to merge together two pre-sorted [[Arrays|arrays]] such that the resulting array is also sorted
 	2. [[Insertion Sort]] - builds a final sorted array one element at a time
 	3. [[Bubble Sort]] - compares each pair of elements in an array and swaps them if they are out of order until the entire array is sorted
-	4. [[Quicksort]] - algorithm picks a pivot element, $A[q]$, and then rearranges the array into two sub-arrays split by the value of $A[q]$
+	4. [[Quick Sort]] - algorithm picks a pivot element, $A[q]$, and then rearranges the array into two sub-arrays split by the value of $A[q]$
 
 ### Properties
 **Complexity**
