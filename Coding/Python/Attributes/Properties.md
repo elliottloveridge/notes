@@ -10,6 +10,23 @@
 		- Useful if the property is a list, for example
 	- `doc`: docstring to provide a description of the property
 
+## Class Properties
+- You can create shared properties across class instances using the below
+	- You define it outside of initialisation but it still gets referenced within the class as self.property
+```python
+class Example:
+	example_property = 'hello'
+
+	def __init__(self, input_parameter):
+		self.input_parameter = input_parameter
+
+	def get_property(self):
+		return self.example_property
+```
+- There are some caveats to the above
+	-  A string is immutable and therefore you couldn't update example_property for one class instance and have it update the other
+	- A list is mutable and therefore updating for one class instance will also update for another
+
 ## Standard Format
 - The standard format (not commonly used) allows you to create getters and setters separately from their property definition
 ```python
@@ -86,3 +103,4 @@ class Player(object):
 	def __str__(self):
 		return "Name: {0.name}, Lives: {0.lives}, Level: {0.level}, Score: {0.score}".format(self)
 ```
+

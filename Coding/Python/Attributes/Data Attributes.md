@@ -33,9 +33,18 @@ class Class:
 		return "{0.name}.format(self)"
 ```
 
+### Format
+- For private (in reality non public) attributes you can use the following format:
+	- `_private_attribute`
+- To go one step further you could use a double underscore
+	- This would not allow you to access the attribute outside of the class
+		- It's still possible but more difficult
+		- `__very_private_attribute`
+	- In Python this is generally not done
+
 
 ### Mangling
 - [[Subclasses#Mangling|Mangling]] is used for sub-classes
 	- Double underscore prevents updating an attribute because of this
-- - It isn't worth using this double underscore to try and enforce private attributes as even this can be ignored
+- It isn't worth using this double underscore to try and enforce private attributes as even this can be ignored
 - In Java, you can use inflection to read and write to private variables

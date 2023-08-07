@@ -1,6 +1,9 @@
 # Classes
 
-## What is a Class?
+
+
+
+## About Classes
 - Classes are used within [[Coding/Python/OOP/OOP|OOP]]
 	- You can think of a class as a template from which objects can be created
 		- You create an *instance* of a class
