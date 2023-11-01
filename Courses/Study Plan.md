@@ -1,7 +1,5 @@
 # Study Plan
 
-## Plan
-- 1 hour every other day
 ## Data Structures and Algorithms
 ### Basics
 - [x] Analysis of Algorithms
