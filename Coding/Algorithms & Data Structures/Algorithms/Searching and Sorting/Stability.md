@@ -1,5 +1,4 @@
 # Stability
-
 - Stability for algorithms is their ability to retain original order for multiple inputs
 - Given an array of tuples (student, score) sorted alphabetically like below;
 	- `l = [('Ariel', 50), ('Aj', 80), ('Bart', 50), ('Cj', 80)]`

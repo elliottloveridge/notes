@@ -9,6 +9,6 @@
 
 ### Definitions
 - [[Coding/Python/Classes/Classes|Class]]: Template for creating objects
-- [[Coding/Python/OOP/Objects|Objects]]: An instance of a class
+- [[Coding/Theory/Programming Paradigms/OOP/Objects|Objects]]: An instance of a class
 - [[Coding/Python/Methods/Methods|Methods]]: A function defined within a class
 - [[Coding/Python/Classes/Classes#Data Attributes|Data Attribute]]: A variable bound to an instance of a class

@@ -1,24 +1,183 @@
 # Study Plan
-
-## Data Structures and Algorithms
-### Basics
-- [x] Analysis of Algorithms
-- [x] Mathematics
-- [ ] List
-	- [x] Videos
-	- [ ] Problems
-	- [x] Quizzes
-- [ ] Recursion
-- [ ] Searching
-- [ ] Sorting
-- [ ] Hashing
-- [ ] String
-- [ ] Linked List
-- [ ] Circular Linked List
-- [ ] Doubly Linked List
-- [ ] Stack
-- [ ] Deque
-- [ ] Queue
-- [ ] Tree
-- [ ] Binary Search Tree
-- [ ] Heap
+## Plan
+- **Data Structures and Algorithms**
+	- Data Structures
+		- Arrays
+		- Linked Lists
+		- Stacks
+		- Queues
+		- Trees (Binary Trees, Binary Search Trees, AVL Trees, etc.)
+		- Heaps (Min-Heap, Max-Heap)
+		- Hash Tables
+	- Algorithms
+		- Graphs (Graph Traversal, Shortest Path Algorithms)
+		- Sorting Algorithms
+		- Searching Algorithms (e.g., Binary Search)
+		- Dynamic Programming
+		- Greedy Algorithms
+		- Recursion
+		- Divide and Conquer
+	- Analysis
+		- Big O Notation and Time Complexity
+		- Space Complexity
+- **Design Patterns**
+	- Singleton Pattern
+	- Factory Method Pattern
+	- Observer Pattern
+	- Strategy Pattern
+	- Decorator Pattern
+	- Command Pattern
+	- MVC (Model-View-Controller) Pattern
+	- MVP (Model-View-Presenter) Pattern
+- **Databases**
+	- Meta Back-End Developer Course
+- **Back-End Web Framework (Django)**
+	- Model-View-Template (MVT) architecture
+	- URL Routing
+	- Middleware
+	- Admin Interface
+	- Django ORM (Object-Relational Mapping)
+	- Authentication and Authorization
+	- Testing and Test Framework
+- **Design Principles**
+	- Modularity, Cohesion, and Coupling
+	- SOLID Principles
+		- Single Responsibility Principle (SRP)
+		- Open-Closed Principle (OCP)
+		- Liskov Substitution Principle (LSP)
+		- Interface Segregation Principle (ISP)
+		- Dependency Inversion Principle (DIP)
+	- KISS (Keep It Simple, Stupid) Principle
+		- Advocate for simplicity in design and code
+	- DRY (Don't Repeat Yourself) Principle
+		- Avoid duplicating code and promote code reusability
+	- Composition Over Inheritance
+		- Favour object composition over class inheritance to promote flexibility
+	- Separation of Concerns
+		- Divide software into distinct modules, each addressing a specific concern
+	- Law of Demeter (Principle of Least Knowledge)
+		- Encourage objects to interact with only their immediate neighbours
+	- Dependency Injection
+		- Inject dependencies into a component rather than hardcoding them
+	- Inversion of Control (IoC)
+		- Control flow and decision-making are inverted, often achieved through frameworks or containers
+- **Testing**
+	- Unit Testing
+	- Integration Testing
+	- Functional Testing
+	- Regression Testing
+	- Automated Testing
+	- Test Doubles (Mocks, Stubs, etc.)
+		- Creating artificial objects to replace real components during testing
+	- Test Coverage
+	- Test-Driven Development (TDD)
+	- Performance Testing
+	- Load Testing
+	- User Acceptance Testing (UAT)
+	- Test Automation Frameworks
+- **API**
+	- REST (Representational State Transfer)
+	- HTTP Methods
+	- API Endpoints
+	- Request and Response Format
+	- Authentication and Authorization
+	- Error Handling
+	- API Security
+	- API Testing
+	- Webhooks
+- **Architectural Patterns**
+	- MVC (Model-View-Controller)
+	- MVP (Model-View-Presenter)
+	- MVVM (Model-View-View-Model)
+	- Microservices Architecture
+	- Monolithic Architecture
+	- Serverless Architecture
+	- Developing and running applications without the need to manage servers
+	- Event-Driven Architecture
+- **DevOps and CI/CD**
+	- DevOps principles
+	- CI/CD integration
+	- Containerization (Docker)
+	- Orchestration (Kubernetes)
+	- Monitoring and Logging
+- **Cloud Services**
+	- Azure Course
+- **CI/CD**
+	- Build Automation
+	- Test Automation
+- **Clean Code**
+	- Refactoring
+- **Python**
+	- Memory management
+		- How Python manages memory
+		- Different types of memory objects in Python
+		- The garbage collector
+		- Reference counting
+		- Memory leaks
+	- Object Model
+		- How Python objects are created and destroyed
+		- Object attributes
+		- Object methods
+		- Object inheritance
+		- Class attributes and methods
+		- Metaclasses
+	- Python Execution Model
+		- How Python code is executed
+		- The Python interpreter
+		- Bytecode
+		- The call stack
+		- Frames
+		- Exceptions
+		- Profilers
+	- Python Runtime Environment
+		- The Python standard library
+		- Modules and packages
+		- Importing modules
+		- Environments
+	- Other
+		- Decorators
+		- Generators
+		- Coroutines
+		- Asynchronicity
+		- Multiprocessing
+		- Performance optimization
+- **C++**
+	- Syntax and Language Features
+	- Pointers and References
+	- Memory Management
+	- Template Library (STL)
+	- Operator Overloading
+	- Templates and Generic Programming
+	- RAII (Resource Acquisition Is Initialization)
+	- Exception Handling
+	- Standard Library Algorithms
+	- File I/O
+	- Concurrency and Multithreading
+	- STL Containers and Iterators
+- **System Design**
+- **Frameworks**
+	- *Note: Duplicate work to above, but read about the principles and what defines them as a framework*
+	- Agile
+	- Waterfall
+	- DevOps
+	- TDD
+	- MVC
+	- DDD
+	- Reactive Programming
+	- Microservices
+- **Compliers**
+	- Books
+		- Compilers: Principles, Techniques, and Tools
+	    - Modern Compiler Implementation in C
+	    - Programming Language Design and Implementation
+	- Courses
+	    - Introduction to Compilers by Coursera
+	    - Programming Languages by Stanford University on edX
+	    - Compiler Engineering by Coursera
+## Bonus
+- Computer Hardware
+- Git Advanced Course
+- Programming Paradigms
+	- Functional programming
+- Networking
+- Front-End Web Framework (ReactJS)

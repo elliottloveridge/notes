@@ -1,5 +1,4 @@
 # Inheritance
-
 ## About Inheritance
 - In Python, inheritance is used to inherit attributes (data and methods) from a base class in a [[Subclasses|subclass]]
 	- Inheritance allows you to write code for a superclass without needing to duplicate it for a relevant subclass

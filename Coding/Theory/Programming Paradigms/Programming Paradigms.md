@@ -2,7 +2,7 @@
 
 ## Types
 - There are several paradigms of programming languages
-	- [[Coding/Python/OOP/OOP|OOP]]
+	- [[OOP|OOP]]
 	- Imperative programming
 		- Most common type
 		- Running commands in a defined order

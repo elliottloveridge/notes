@@ -10,7 +10,7 @@
 - The time complexity of a linear search is $\mathcal{O}(n)$
 	- This is because it searches the entire element space
 	- Does not make use of the fact a given list may be sorted
-- Linear search is rarely used practically because other search algorithms such as [[Binary Search|binary search]] and [[Hash Tables|hash tables]] allow for significantly faster searching
+- Linear search is rarely used practically because other search algorithms such as [[Binary Search|binary search]] and [[Hashing|hash tables]] allow for significantly faster searching
 
 ## Python Implementation
 ```python
