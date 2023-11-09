@@ -37,7 +37,7 @@
 	- Middleware
 	- Admin Interface
 	- Django ORM (Object-Relational Mapping)
-	- Authentication and Authorization
+	- Authentication and Authorisation
 	- Testing and Test Framework
 - **Design Principles**
 	- Modularity, Cohesion, and Coupling
@@ -174,6 +174,10 @@
 	    - Introduction to Compilers by Coursera
 	    - Programming Languages by Stanford University on edX
 	    - Compiler Engineering by Coursera
+- **SQL**
+	- Basic Data Engineering
+- **HTTP**
+	- *How the Internet Works*
 ## Bonus
 - Computer Hardware
 - Git Advanced Course

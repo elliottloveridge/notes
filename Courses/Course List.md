@@ -49,3 +49,31 @@
 ## O'Reilly
 - [Clean Code](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/)
 - **[Design Patterns](https://learning.oreilly.com/library/view/head-first-design/9781492077992/)**
+## Computer Science Cheat Sheet
+### Basics
+- [Intro to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x)
+### Programming
+- [Java Programming: Solving Problems with Software](https://imp.i384100.net/GjkPGV)
+- [Java Programming: Arrays, Lists, and Structured Data](https://imp.i384100.net/15knRR)
+- [Object Oriented Programming in Java](https://imp.i384100.net/ZdznBq)
+- [Data Structures and Performance](https://imp.i384100.net/oevm0b)
+- [Java Programming: Principles of Software Design](https://imp.i384100.net/zavZrO)
+- [Java Programming: Build a Recommendation System](https://imp.i384100.net/n1vro6)
+- [Programming Languages, Part A](https://github.com/ForrestKnight/open-source-cs/blob/master/imp.i384100.net/6b13oK)
+- [Programming Languages, Part B](https://imp.i384100.net/2rebMz)
+- [Programming Languages, Part C](https://imp.i384100.net/Ryogm9)
+### Systems
+- [Build a Modern Computer from First Principles: From Nand to Tetris](https://github.com/ForrestKnight/open-source-cs/blob/master/imp.i384100.net/6b13dV)
+- [Build a Modern Computer from First Principles: From Nand to Tetris II](https://imp.i384100.net/dovNVq)
+- [Introduction to Operating Systems](https://imp.i115008.net/introduction-to-operating-systems)
+### Theory
+- [Computer Science: Algorithms, Theory, and Machines](https://imp.i384100.net/7mVROr)
+- [Algorithms, Part I](https://imp.i384100.net/DVm9eo)
+- [Algorithms, Part II](https://imp.i384100.net/jW4xyv)
+### Applications
+- [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x)
+- [Database Management Essentials](https://imp.i384100.net/kjvDMn)
+- [Cryptography I](https://imp.i384100.net/DVm9ej)
+### Unix
+- [Linux Command Line Basics](https://imp.i115008.net/linux-command-line-basics)
+- [The Unix Workbench](https://imp.i384100.net/QOXZ4P)
