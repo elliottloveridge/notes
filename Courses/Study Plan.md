@@ -154,6 +154,7 @@
 	- File I/O
 	- Concurrency and Multithreading
 	- STL Containers and Iterators
+- **Command Line & UNIX**
 - **System Design**
 - **Frameworks**
 	- *Note: Duplicate work to above, but read about the principles and what defines them as a framework*
@@ -180,6 +181,7 @@
 	- *How the Internet Works*
 ## Bonus
 - Computer Hardware
+- Regex
 - Git Advanced Course
 - Programming Paradigms
 	- Functional programming
