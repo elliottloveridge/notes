@@ -7,7 +7,7 @@ They are usually more straightforward to implement than [[Integer Sort|interger 
 
 ### Proof - Running time of comparison-based sorting is bounded by $\Omega(n\log{n})$
 
-A comparison sort can be modeled as a large [[Binary Search Trees|binary tree]] called a *decision tree* where each node represents a single comparison.
+A comparison sort can be modelled as a large [[Binary Search Trees|binary tree]] called a *decision tree* where each node represents a single comparison.
 
 - For a list of length $n$ there are $n!$ possible permutations
 	- Each of these permutations is represented by a path through the decision tree (a series of comparisons and outcomes)

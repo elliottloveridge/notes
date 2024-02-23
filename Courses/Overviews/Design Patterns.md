@@ -1,5 +1,4 @@
 # Design Patterns
-
  > Head First Design Patterns Book
 ## Chapter 1 - Intro to Design Patterns
 - [OO Design](OO%20Design.md)

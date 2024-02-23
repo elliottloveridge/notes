@@ -3,7 +3,7 @@
 ### General
 - [Stability](Stability.md)
 ### Dynamic Programming
-- [[Dynamic Programming](Dynamic%20Programming.md)]
+- [Dynamic Programming](Dynamic%20Programming.md)
 ### Searching
 - [Searching Algorithms](Searching%20Algorithms.md)
 #### Searching Algorithms
