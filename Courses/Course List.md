@@ -43,6 +43,7 @@
 ### ML Engineering
 - [MLOps](https://www.coursera.org/specializations/mlops-machine-learning-duke)
 - [ML Engineering](https://www.deeplearning.ai/courses/machine-learning-engineering-for-production-mlops/)
+- [Google Cloud Certified Machine Learning Engineer](https://cloud.google.com/learn/certification/machine-learning-engineer)
 ### Data Science
 - [ML Specialization](https://www.deeplearning.ai/courses/machine-learning-specialization/)
 - [A/B Testing](https://www.udacity.com/course/ab-testing--ud257)

@@ -1,0 +1,21 @@
+# Swift (Temp Inbox)
+- Operators
+	- Symbols or phrases used to check, change, or combine values
+- Variables and constants
+	- Away to store data by name
+- Types
+	- Certain kinds of data you can store or represent
+- Collections
+	- Store groups of values
+- Control flow
+	- Ways to perform tasks multiple times, or under certain conditions
+- Functions
+	- Names pieces of repeatable code
+- Enumerations
+	- A way to group related values
+- Structures
+	- A way to group related values and functionality
+- Protocols
+	- Blueprints for functionality that can be adopted
+- Classes
+	- A way to group related values and functionality that can also inherit those things from another

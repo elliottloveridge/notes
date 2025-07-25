@@ -12,7 +12,7 @@
 - Software Engineering at Google - O'Reilly
 - Understanding Distributed Systems
 - Design Patterns: Elements of Reusable Object-Oriented Software
-- Building a MicroService: Designing Fine-Grained Systems
+- Building a Microservice: Designing Fine-Grained Systems
 - Microservice Patterns: With examples in Java
 - Architecture Patterns with Python: Enabling Test-Driven Deployment, Domain-Driven Design, and Event-Driven Microservices
 ### Personal
@@ -23,6 +23,5 @@
 - Slack/Stripe engineering blogs
 ## Open Source
 - *Find an open source project to read over/contribute to*
-	- QuantumBlack?
+	- Vizro by QuantumBlack
 
-  
