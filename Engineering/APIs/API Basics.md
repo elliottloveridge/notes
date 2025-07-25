@@ -22,3 +22,8 @@
 - A name-based identifier for a resource
 - Doesn’t specify how to access it
 - Example: `urn:isbn:0451450523`
+___
+## 🔐 Authorisation and Authentication
+- Most REST APIs provide levelled access
+    - Most users can submit GET requests
+    - Fewer users can submit PUT, PATCH, and DELETE requests
