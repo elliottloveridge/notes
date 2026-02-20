@@ -24,4 +24,3 @@
 ## Open Source
 - *Find an open source project to read over/contribute to*
 	- Vizro by QuantumBlack
-

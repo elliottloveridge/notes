@@ -1,6 +1,5 @@
 # Notes
 ## Data Science and Software Engineering
-
 - This repo is used to store notes on;
   - Data Science theory
   - Software Engineering
