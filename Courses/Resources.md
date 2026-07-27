@@ -1,10 +1,12 @@
 # Resources
+## Paths
+- [Engineering Study Path](https://github.com/joebew42/study-path)
+- [Back-End Developer Roadmap](https://roadmap.sh/backend)
 ## Books
-### Data Science
-- Deep Learning
-- Gaussian Processes for Machine Learning
-- Machine Learning - A Probabilistic Perspective
-- Pattern Recognition and Machine Learning
+- Clean Code
+- Design Patterns
+- Design Principles
+- How The Internet Works
 ### Engineering
 - Cracking the Coding Interview
 - Clean Architecture
@@ -24,3 +26,5 @@
 ## Open Source
 - *Find an open source project to read over/contribute to*
 	- Vizro by QuantumBlack
+## Courses
+- See [[Course List]]
