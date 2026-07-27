@@ -1,0 +1,15 @@
+{
+  "promptDelete": false,
+  "showInlineTitle": false,
+  "readableLineLength": false,
+  "attachmentFolderPath": "Attachments",
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "Attachments/",
+    "Journal/",
+    "Inbox"
+  ],
+  "showLineNumber": false
+}

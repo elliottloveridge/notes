@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "30d1ebe133dd8b0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c20b12d4090a0a94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "257c18fbd4b7cbf9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Inbox"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c53f0b146eded4f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "f31617ad18d839c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d8dc3194e2c7d05",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "eb4a8fd9f618e8ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ae60ca4460c48d64",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 275.5
+  },
+  "right": {
+    "id": "87f7f2bf60e9e322",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fb7ca5a2f1047bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "532bcc451244155e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ec7a87d2d01650fa",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "3699dd45479009f0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Inbox.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Inbox"
+            }
+          },
+          {
+            "id": "e8d53c8eae6656c1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "864a37de4b0433de",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Inbox.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Inbox"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "257c18fbd4b7cbf9",
+  "lastOpenFiles": [
+    "README.md",
+    "Tasks.md",
+    "Inbox.md",
+    "Templates/Daily Note.md",
+    "Templates/Weekly Note.md",
+    "Templates/Kanban.md",
+    "Templates/Sprint Plan.md",
+    "Templates",
+    "Courses/Study Plan.md",
+    "Engineering/Theory/Multiprocessing.md",
+    "Computing/Networking/DNS Concepts.md",
+    "Engineering/Algorithms & Data Structures/Algorithms/Dynamic Programming/Dynamic Programming.md",
+    "Courses/Start Pages/Algorithms and Data Structures.md",
+    "Journal/2026/WK10/04-03-Wed.md",
+    "Engineering/Python/Data Types/Dictionaries and Sets/Sets.md",
+    "Engineering/Python/Data Types/Dictionaries and Sets/Dictionaries.md",
+    "Engineering/Python/Data Types/Lists and Tuples/Lists.md",
+    "Engineering/Python/Data Types/Lists and Tuples/Comprehensions.md",
+    "Engineering/Python/Functions/Functions.md",
+    "Engineering/Python/Functions/Parameters.md",
+    "Engineering/Python/Functions/Generators.md",
+    "Data Science/Machine Learning/Models/Logistic Regression.md",
+    "Coding/Roadmap/GPT Roadmap.md",
+    "Coding/Roadmap/Phase 1 - Python Language Mastery.md",
+    "Data Science/Machine Learning/Models/Linear Regression.md",
+    "Data Science/Machine Learning/Models/Linear Model.md",
+    "Data Science/Machine Learning/Models/Decision Trees.md",
+    "Journal/2026/WK10",
+    "Courses/Start Pages/Untitled",
+    "Courses/Archive",
+    "Journal/2026/WK09",
+    "Journal/2026",
+    "Engineering/Algorithms & Data Structures/Algorithms/Searching and Sorting/Sorting Methods",
+    "Engineering/Algorithms & Data Structures/Algorithms/Searching and Sorting/Searching Methods",
+    "Engineering/Algorithms & Data Structures/Algorithms/Dynamic Programming/Examples",
+    "Engineering/Theory/Programming Paradigms/OOP",
+    "Attachments/Computing/Networking/Connected Computers.png",
+    "Attachments/Pasted image 20250810105446.png",
+    "Attachments/Design Patterns/WeatherData Classes.png",
+    "Attachments/Design Patterns/Weather-O-Rama.png",
+    "Attachments/Design Patterns/Observer Pattern.png",
+    "Attachments/Software Engineering/Algorithms/Sorting/sorting-stability.png",
+    "Attachments/Software Engineering/Algorithms/Sorting/bubble-sort.png",
+    "Attachments/Software Engineering/Algorithms/Sorting/insertion-sort.png",
+    "Attachments/Software Engineering/Algorithms/Sorting/binary-tree.png",
+    "Attachments/Software Engineering/Computational Efficiency/gridwalk.png"
+  ]
+}
