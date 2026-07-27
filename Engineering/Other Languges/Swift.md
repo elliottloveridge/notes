@@ -1,4 +1,4 @@
-# Swift (Temp Inbox)
+# Swift
 - Operators
 	- Symbols or phrases used to check, change, or combine values
 - Variables and constants

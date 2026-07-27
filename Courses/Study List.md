@@ -1,0 +1,206 @@
+# Study List
+## Plan
+> Go over some short videos on each of these and only spend extra time on one if you don't understand it. There isn't much point looking into tree variations unless you're implementing them or practicing for a job interview.
+> Hash tables are most relevant for Python dictionaries
+- **Data Structures**
+	- Arrays
+	- Linked Lists
+	- Stacks
+	- Queues
+	- Trees (Binary Trees, Binary Search Trees, AVL Trees, etc.)
+	- Heaps (Min-Heap, Max-Heap)
+	- Hash Tables
+> Binary search is important here and could be something you implement yourself outside of a computer program; same for recursion. The rest is worth some high level videos so you don’t feel out of place when reading something and one of the terms is mentioned.
+- **Algorithms**
+	- Graphs (Graph Traversal, Shortest Path Algorithms)
+	- Sorting Algorithms
+	- Searching Algorithms (e.g., Binary Search)
+	- Dynamic Programming
+	- Greedy Algorithms
+	- Recursion
+	- Divide and Conquer
+> Worth understanding well
+- **Analysis**
+	- Big O Notation and Time Complexity
+	- Space Complexity
+> I couldn’t explain any of these with confidence and could only guess at a few - would just look them up as and when you encounter them.
+- **Design Patterns**
+	- Singleton Pattern
+	- Factory Method Pattern
+	- ==[[Observer Pattern]]==
+	- ==[Strategy Pattern](Strategy%20Pattern.md)==
+	- Decorator Pattern
+	- Command Pattern
+	- MVC (Model-View-Controller) Pattern
+	- MVP (Model-View-Presenter) Pattern
+> No opinion on the course but definitely get stuck into one on DBs if you have the appetite. It would be good to look at cloud service DB offerings and understanding the difference between their many services and when someone might use one over the other.
+- **Databases**
+	- Meta Back-End Developer Course
+> Not familiar with any of this.
+- **Back-End Web Framework (Django)**
+	- Model-View-Template (MVT) architecture
+	- URL Routing
+	- Middleware
+	- Admin Interface
+	- Django ORM (Object-Relational Mapping)
+	- Authentication and Authorisation
+	- Testing and Test Framework
+> You can read this as a starter: https://grugbrain.dev/
+- **Design Principles**
+	- Modularity, Cohesion, and Coupling
+	- SOLID Principles
+		- Single Responsibility Principle (SRP)
+		- Open-Closed Principle (OCP)
+		- Liskov Substitution Principle (LSP)
+		- Interface Segregation Principle (ISP)
+		- Dependency Inversion Principle (DIP)
+	- KISS (Keep It Simple, Stupid) Principle
+		- Advocate for simplicity in design and code
+	- DRY (Don't Repeat Yourself) Principle
+		- Avoid duplicating code and promote code reusability
+	- Composition Over Inheritance
+		- Favour object composition over class inheritance to promote flexibility
+	- Separation of Concerns
+		- Divide software into distinct modules, each addressing a specific concern
+	- Law of Demeter (Principle of Least Knowledge)
+		- Encourage objects to interact with only their immediate neighbours
+	- Dependency Injection
+		- Inject dependencies into a component rather than hardcoding them
+	- Inversion of Control (IoC)
+		- Control flow and decision-making are inverted, often achieved through frameworks or containers
+> Very important to understand and be able to implement all of this.
+- **Testing**
+	- Unit Testing
+	- Integration Testing
+	- Functional Testing
+	- Regression Testing
+	- Automated Testing
+	- Test Doubles (Mocks, Stubs, etc.)
+		- Creating artificial objects to replace real components during testing
+	- Test Coverage
+	- Test-Driven Development (TDD)
+	- Performance Testing
+	- Load Testing
+	- User Acceptance Testing (UAT)
+	- Test Automation Frameworks
+- **API**
+	- REST (Representational State Transfer)
+	- HTTP Methods
+	- API Endpoints
+	- Request and Response Format
+	- Authentication and Authorization
+	- Error Handling
+	- API Security
+	- API Testing
+	- Webhooks
+> Understand microservices and serverless. Below is a link to the amazon prime video team talking about moving back to a monolithic arch, which is interesting in the context of AWS providing a cloud service that really promotes the microservice paradigm.
+> https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90
+- **Architectural Patterns**
+	- MVC (Model-View-Controller)
+	- MVP (Model-View-Presenter)
+	- MVVM (Model-View-View-Model)
+	- Microservices Architecture
+	- Monolithic Architecture
+	- Serverless Architecture
+	- Developing and running applications without the need to manage servers
+	- Event-Driven Architecture
+> Important to understand for ML Eng.
+- **DevOps and CI/CD**
+	- DevOps principles
+	- CI/CD integration
+		- Build Automation
+		- Test Automation
+	- Containerization (Docker)
+	- Orchestration (Kubernetes)
+	- Monitoring and Logging
+- **Cloud Services**
+	- Azure Course
+- **Clean Code**
+	- Refactoring
+> I would go as deep into this as possible because I think Python will be a valuable tool for a while and its worth investing in knowledge for it.
+> I think talks like this are a good way to get exposure without being completely draining: https://www.youtube.com/watch?v=sPiWg5jSoZI
+- **Python**
+	- Memory management
+		- How Python manages memory
+		- Different types of memory objects in Python
+		- The garbage collector
+		- Reference counting
+		- Memory leaks
+	- Object Model
+		- How Python objects are created and destroyed
+		- Object attributes
+		- Object methods
+		- Object inheritance
+		- Class attributes and methods
+		- Metaclasses
+	- Python Execution Model
+		- How Python code is executed
+		- The Python interpreter
+		- Bytecode
+		- The call stack
+		- Frames
+		- Exceptions
+		- Profilers
+	- Python Runtime Environment
+		- The Python standard library
+		- Modules and packages
+		- Importing modules
+		- Environments
+	- Other
+		- Decorators
+		- Generators
+		- Coroutines
+		- Asynchronicity
+		- Multiprocessing
+		- Performance optimization
+- **C++**
+	- Syntax and Language Features
+	- Pointers and References
+	- Memory Management
+	- Template Library (STL)
+	- Operator Overloading
+	- Templates and Generic Programming
+	- RAII (Resource Acquisition Is Initialization)
+	- Exception Handling
+	- Standard Library Algorithms
+	- File I/O
+	- Concurrency and Multithreading
+	- STL Containers and Iterators
+> Install gitbash on your windows system and learn how to use the basic commands. Don’t spend too much time on bash scripting beyond the fundamentals, the syntax is old and has too many pitfalls to be worth trying to do complicated tasks with
+- **Command Line & UNIX**
+- **IDE**
+	- Debugging
+- **System Design**
+- **Frameworks**
+	- *Note: Duplicate work to above, but read about the principles and what defines them as a framework*
+	- Agile
+	- Waterfall
+	- DevOps
+	- TDD
+	- MVC
+	- DDD
+	- Reactive Programming
+	- Microservices
+- **Compliers**
+	- Books
+		- Compilers: Principles, Techniques, and Tools
+	    - Modern Compiler Implementation in C
+	    - Programming Language Design and Implementation
+	- Courses
+	    - Introduction to Compilers by Coursera
+	    - Programming Languages by Stanford University on edX
+	    - Compiler Engineering by Coursera
+- **SQL**
+	- Basic Data Engineering
+- **HTTP**
+	- *How the Internet Works*
+## Bonus
+- Computer Hardware
+ > Learn basic regex patterns (? * . ^ &, capture groups, OR conditions), understand advanced things like lookahead/ behind but most of the times complex regex solutions are not worth the maintenance/edge cases.
+- Regex
+> Become proficient enough in git so you can always get out of complex scenarios/understand what actions will irreversibly destroy data.
+- Git Advanced Course
+- Programming Paradigms
+	- Functional programming
+- Networking
+- Front-End Web Framework (React)

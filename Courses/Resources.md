@@ -1,12 +1,30 @@
 # Resources
-## Paths
-- [Engineering Study Path](https://github.com/joebew42/study-path)
-- [Back-End Developer Roadmap](https://roadmap.sh/backend)
 ## Books
-- Clean Code
-- Design Patterns
-- Design Principles
-- How The Internet Works
+### Development
+- Building Microservices
+- Head First Design Patterns
+- The Pragmatic Programmer
+- Clean Code: A Handbook of Agile Software Craftsmanship
+- Clean Architecture: A Craftsman's Guide to Software Structure and Design
+### Testing
+- Learning Test-Driven Development
+### Language Specific
+#### Python
+- Web Development with Django
+- Programming Python - Mark Lutz
+- Fluent Python
+- Python Testing with pytest
+#### Other
+- Head First Swift
+- A Tour of C++
+### Other
+- Designing Machine Learning Systems
+
+### Data Science
+- Deep Learning
+- Gaussian Processes for Machine Learning
+- Machine Learning - A Probabilistic Perspective
+- Pattern Recognition and Machine Learning
 ### Engineering
 - Cracking the Coding Interview
 - Clean Architecture
@@ -23,8 +41,3 @@
 - What Got You Here Won't Get You There
 ## Blogs
 - Slack/Stripe engineering blogs
-## Open Source
-- *Find an open source project to read over/contribute to*
-	- Vizro by QuantumBlack
-## Courses
-- See [[Course List]]

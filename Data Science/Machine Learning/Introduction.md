@@ -13,7 +13,7 @@
 	- It is cheap to collect data but expensive to label, so this works by having a minority of labeled examples
 	- Weakly-supervised is similar as accurate labels are expensive and so you learn strong (accurate) labels from weak (inaccurate) ones
 
-## The process
+## The Process
 1. Find a problem
 2. Obtain required data
 3. Choose or design a model
@@ -23,7 +23,7 @@
 
 > Machine learning is discovering the rule, using the rule is just programming
 
-## Problem types
+## Problem Types
 - The majority of machine learning is either classification or regression
 - **Classification** - the output ($y$) is a discrete label
 	- Multi-label classification: $y$ is a set
@@ -32,11 +32,11 @@
 - **Structure Prediction** (another type of supervised learning) - $y$ is anything else
 	- Sentence tagging - $y$ is a sequence
 
-### What kinds of problem can an ML algorithm solve?
-#### Supervised learning
+### What Kinds of Problem Can an ML Algorithm Solve?
+#### Supervised Learning
 Learn a function $y=f(x)$ from many examples of input ($x$) output ($y$) pairs
 
-#### Unsupervised learning
+#### Unsupervised Learning
 Learn a function to represent unknown patterns within data
 
 ##### Examples
@@ -51,10 +51,8 @@ Learn a function to represent unknown patterns within data
 		- Useful for visualisation - important for verification
 
 ---
+
 - You can also classify ML algorithms by accuracy:
 - Point estimate (definite)
 - Probabilistic
 - Bayesian
-
-
-

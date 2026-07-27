@@ -49,7 +49,7 @@
 - [A/B Testing](https://www.udacity.com/course/ab-testing--ud257)
 ## O'Reilly
 - [Clean Code](https://learning.oreilly.com/library/view/clean-code-a/9780136083238/)
-- [Design Patterns](https://learning.oreilly.com/library/view/head-first-design/9781492077992/)
+- **[Design Patterns](https://learning.oreilly.com/library/view/head-first-design/9781492077992/)**
 ## Computer Science Cheat Sheet
 ### Basics
 - [Intro to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x)

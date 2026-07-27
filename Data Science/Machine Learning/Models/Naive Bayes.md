@@ -1,6 +1,7 @@
+# Naive Bayes
 - To make classifications, we need to use $X$ to predict $Y$;
-$$P(Y=y|X=(x_1, x_2, ..., x_n))$$
-$$\text{Prediction} = argmax_y (Y=y|x=...)$$
+$$P(Y=y|X=(x_1, x_2, …, x_n))$$
+$$\text{Prediction} = argmax_y (Y=y|x=…)$$
 ## Bayes Theorem
 - Bayes theorem can be defined as;
 $$P(Y|X) = \frac{P(X|Y)P(Y)}{P(X)}$$
@@ -18,5 +19,5 @@ $$\text{Posterior} = \frac{\text{Likelihood} \times \text{Prior}}{\text{Evidence
 		- $P(Y=Play) = \frac{N_{Play}}}{N_{Play} + N_{\text{Not Play}}}$
 		- $P(X = sunny|Y = Play) = \frac{\text{Play and Sunny}}{\text{Play}}$
 - Theoretically, it is not hard to find $P(X|Y)$ however it becomes harder in reality as the number of features grows
-	- $P(x_0, x_1, ..., x_k|Y=y)$
+	- $P(x_0, x_1, …, x_k|Y=y)$
 		- This is known as a parameter in Naive Bayes

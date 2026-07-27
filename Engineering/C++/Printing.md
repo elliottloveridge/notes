@@ -23,7 +23,7 @@ int main()
 }
 ```
 
-#### Printing Variables
+## Printing Variables
 ```cpp
 #include <iostream>
 using namespace std;
